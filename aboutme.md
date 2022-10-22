@@ -4,7 +4,7 @@ title: About me
 subtitle: Something about me!
 ---
 
-My name Matteo Francia.
+My name is Matteo Francia.
 
 
 I received my Ph.D. in Computer Science and Engineering from the University of Bologna, Italy.
