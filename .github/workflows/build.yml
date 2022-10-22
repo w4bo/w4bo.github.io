@@ -1,0 +1,27 @@
+name: "build"
+on: [push, pull_request]
+jobs:
+  launch-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.0.2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Install gems
+        continue-on-error: true
+        run: |
+          gem install bundler
+          bundler install
+      - name: Build
+        run: |
+          chmod +x *.sh
+          ./build.sh
+          cd _site
+          zip -r ../website.zip *
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: _site # The folder the action should deploy.
