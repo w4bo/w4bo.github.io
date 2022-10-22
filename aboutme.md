@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Something about me!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name Matteo Francia.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I received my Ph.D. in Computer Science and Engineering from the University of Bologna, Italy.
+I am currently an adjunct professor and a post-doc research fellow at the University of Bologna, where I am a member of the Business Intelligence Group and tech "Big Data" and "Principles of Informatics".
+I was a visiting scholar at The University of Queensland in 2019.
+I received the MSc and BSc with honors from the University of Bologna in 2017 and 2014, respectively.
+My research mainly focus on advanced analytics and unconventional data, with particular reference to trajectory, social, and sensory data.
