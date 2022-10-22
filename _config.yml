@@ -52,13 +52,13 @@ social-network-links:
   email: "m.francia@unibo.it"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
-  github: https://github.com/w4bo
-  twitter: https://twitter.com/w4bo2
+  github: w4bo
+  twitter: w4bo2
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: https://www.linkedin.com/in/matteo-francia/
+  linkedin: matteo-francia
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -71,7 +71,7 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-  ORCID: https://orcid.org/my-orcid?orcid=0000-0002-0805-1051
+  ORCID: 0000-0002-0805-1051
 #  google-scholar: your google scholar
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
