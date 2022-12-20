@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My Website
+title: Matteo Francia, Ph.D.
 
 # Your name to show in the footer
 author: Matteo Francia
@@ -282,6 +282,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - vendor/
 
 plugins:
   - jekyll-paginate
