@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.1.0
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          ruby-version: '2.6'
+          bundler-cache: true
       - name: Install gems
         continue-on-error: true
         run: |
