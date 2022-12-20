@@ -16,6 +16,7 @@ jobs:
           ref: upstream                      # set the branch to merge to
           fetch-depth: 0 
       - name: Merge Upstream
+        if: github.repository != 'w4bo/w4bo.github.io'
         uses: exions/merge-upstream@v1
         with:
           upstream: w4bo/w4bo.github.io      # set the upstream repo
