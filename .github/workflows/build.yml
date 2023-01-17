@@ -25,3 +25,19 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: _site # The folder the action should deploy.
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.MF_PAT }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'matteo-francia'
+          destination-repository-name: 'matteo-francia.github.io'
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.MF2_PAT }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'mttfrn'
+          destination-repository-name: 'mttfrn.github.io'
