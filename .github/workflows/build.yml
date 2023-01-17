@@ -31,4 +31,4 @@ jobs:
           github_token: ${{ secrets.MF2_PAT }}
           branch: master
           force: true
-          repository: 'mttfrn.github.io'
+          repository: 'mttfrn/mttfrn.github.io'
