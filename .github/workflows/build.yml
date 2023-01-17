@@ -27,14 +27,16 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: _site # The folder the action should deploy.
-      - name: Push changes
+      - name: Push changes 1
+        if: github.repository == 'w4bo/w4bo.github.io'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.MF_PAT }}
           branch: master
           force: true
           repository: 'matteo-francia/matteo-francia.github.io'
-      - name: Push changes
+      - name: Push changes 2
+        if: github.repository == 'w4bo/w4bo.github.io'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.MF2_PAT }}
