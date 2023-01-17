@@ -33,6 +33,7 @@ jobs:
           source-directory: '.'
           destination-github-username: 'matteo-francia'
           destination-repository-name: 'matteo-francia.github.io'
+          target-branch: 'master'
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
@@ -41,3 +42,4 @@ jobs:
           source-directory: '.'
           destination-github-username: 'mttfrn'
           destination-repository-name: 'mttfrn.github.io'
+          target-branch: 'master'
