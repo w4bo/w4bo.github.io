@@ -30,6 +30,13 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
+          github_token: ${{ secrets.MF_PAT }}
+          branch: master
+          force: true
+          repository: 'matteo-francia/matteo-francia.github.io'
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
           github_token: ${{ secrets.MF2_PAT }}
           branch: master
           force: true
