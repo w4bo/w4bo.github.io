@@ -12,3 +12,6 @@ I am currently an adjunct professor and a post-doc research fellow at the Univer
 I was a visiting scholar at The University of Queensland in 2019.
 I received the MSc and BSc with honors from the University of Bologna in 2017 and 2014, respectively.
 My research mainly focuses on advanced analytics and unconventional data, with particular reference to trajectory, social, and sensory data.
+
+	
+{% bibliography %}
