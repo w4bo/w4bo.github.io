@@ -20,8 +20,6 @@ jobs:
         run: |
           chmod +x *.sh
           ./build.sh
-          cd _site
-          zip -r ../website.zip *
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
