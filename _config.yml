@@ -288,6 +288,7 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll/scholar
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
@@ -297,3 +298,6 @@ scholar:
     bibliography: refs.bib
     replace_strings: true
     query: "@*"
+    sort_by: year
+    order: descending
+    bibliography_template: bibliography
