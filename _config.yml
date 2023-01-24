@@ -291,7 +291,7 @@ plugins:
   - jekyll/scholar
 
 scholar:
-    style: my-ieee.cls
+    style: ./_bibliography/my-ieee.cls
     bibliography: refs.bib
     replace_strings: true
     query: "@*"
