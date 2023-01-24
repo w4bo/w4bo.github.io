@@ -297,4 +297,3 @@ scholar:
     query: "@*"
     sort_by: year
     order: descending
-    bibliography_template: bibliography
