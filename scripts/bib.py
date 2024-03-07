@@ -55,5 +55,5 @@ for author in arr_authors:
 
 with open('../refs.bib', 'w') as file:
     for bibitem in bib:
-        file.write(bibitem.replace('\\n', '\n'))
+        file.write(bibitem.replace('\\n', '\n').replace("\\xc2\\xa", " "))
         file.write('\n')
