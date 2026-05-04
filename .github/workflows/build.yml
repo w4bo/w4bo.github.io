@@ -9,7 +9,7 @@ jobs:
           fetch-depth: 0
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7.8'
+          ruby-version: '2.4.22'
           bundler-cache: true
       - name: Install gems
         continue-on-error: true
