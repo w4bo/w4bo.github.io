@@ -8,7 +8,7 @@ config.plugins.push(
         "publishCmd": publishCmd,
     }],
     ["@semantic-release/github", {
-        "assets": ["dataplat2023.zip"]
+        "assets": []
     }],
     "@semantic-release/git",
 )
