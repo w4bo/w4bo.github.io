@@ -9,7 +9,7 @@ jobs:
           fetch-depth: 0
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6'
+          ruby-version: '2.7.8'
           bundler-cache: true
       - name: Install gems
         continue-on-error: true
@@ -20,14 +20,6 @@ jobs:
         run: |
           chmod +x *.sh
           ./build.sh
-      # - name: Set up Python
-      #   uses: actions/setup-python@v4
-      #   with:
-      #       python-version: '3.10'
-      # - name: Get bibliography
-      #   run: |
-      #     chmod +x *.sh
-      #     ./build.sh
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
