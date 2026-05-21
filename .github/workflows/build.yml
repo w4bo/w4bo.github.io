@@ -10,7 +10,7 @@ jobs:
           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '4.0.4'
+          ruby-version: '4.0.5'
           bundler-cache: true
       - name: Install gems
         continue-on-error: true
